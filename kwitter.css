@@ -1,0 +1,14 @@
+body{
+  background-color: aquamarine;
+}
+
+  #mail{
+     height: 50px;
+     width: 50px;
+     border-radius: 20px;
+  }
+  #main_login{
+background-color: wheat;
+float: none;
+border-radius: 15px;
+  }

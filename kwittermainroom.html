@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-firestore.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/live/3.1/firebase.js"></script>
+    
+    <link href="https://fonts.googleapis.com/css?family=Yeon+Sung&display=swap" rel="stylesheet"><meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+    <title>Document</title>
+
+    <link rel="stylesheet" type="text/css" href="kwitter_room.css">
+<script src="kwitter3room.js"></script>
+</head>
+<body>
+    <button id="logout" class="glyphicon glyphicon-log-out btn btn-danger" onclick="logout()">Logout</button>
+    <center>
+        <br><br>
+        <h1 class="text-primary">
+            Kwitter
+            <sup>
+                <img id="mail" src="https://media.istockphoto.com/vectors/neon-web-blue-mail-icon-concept-message-isolated-vector-id1150765025?k=20&m=1150765025&s=170667a&w=0&h=ACYRqJtrcswddRTwqBfSKKN1bNh0N_a6I8SYvWvaPjs=">
+            </sup>	
+            </h1>
+            <div class="btn-primary" id="output1"></div>
+            <br><br>
+            <input id="message" class="form-control" placeholder="Message">
+            <button class="btn btn-primary" onclick="sendmessage">Send</button>
+    </center>
+</body>
+</html>
